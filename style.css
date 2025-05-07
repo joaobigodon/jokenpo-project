@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+
+body{
+
+background: url(https://picsum.photos/1600/900);
+background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+}
+
+.container {
+padding: 20px;
+background-color: floralwhite;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+button{
+padding: 20px;
+font-size: 50px;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.music-button{
+
+    padding: 10px;
+    font-size: 15px;
+   margin-bottom: 10px;
+    border-color: black;
+}
+
+.button-punch{
+    background-color: rgb(252, 6, 6);
+    border: none;
+    margin-right: 10px;
+}
+
+.button-palm{
+    background-color: blue;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button-scissors{
+
+
+    background-color: rgb(7, 191, 7);
+    border: none;
+}
+
+button:hover {
+opacity: 0.5;
+
+}
+
+
+h1{
+
+    margin-bottom: 10px;
+}
+
+
+.my-points{
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.reset-points{
+
+    padding: 10px;
+    font-size: 15px;
+   margin-bottom: 10px;
+    border-color: black;
+
+
+}
+
+.turnoff-song{
+    padding: 10px;
+    font-size: 15px;
+   margin-bottom: 10px;
+    border-color: black;
+
+}

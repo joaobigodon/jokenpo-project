@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevClub JokenPô Game</title>
+    <link rel="stylesheet" href="./style.css" media="screen" />
+    <link rel="script.js" href="./scripts.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+
+  <body>
+    <audio
+      id="song"
+      src="./assets/Música 3 minutos - Reiki, meditação, relaxamento.mp3"
+    ></audio>
+<audio id="Win-Sound" src="./assets/Ayrton Senna - Tema da vitória.mp3"></audio>
+  <audio id="Loser-Sound"  src="./assets/Loser Sound Effects.mp3"></audio>
+
+    <div class="container">
+      <h1>JokenPô</h1>
+      <p>Song</p>
+      <button class="music-button" onclick="MusicOn()"> 🎶MUSIC ON</button>
+      <button class="turnoff-song" onclick="MusicOff()"> 🚫 MUSIC OFF  </button>
+      <button class="reset-points" onclick="ButtonReset()">REINICIAR PONTOS</button>
+
+      <div class="buttons-jokenpo">
+        <button class="button-punch" onclick="playHuman('rock')">
+          &#x1F44A;
+        </button>
+        <button class="button-palm" onclick="playHuman ('palm')">
+          &#x1F590;
+        </button>
+        <button class="button-scissors" onclick="playHuman ('scissors')">
+          &#x270C;
+        </button>
+      </div>
+
+      <p id="result"></p>
+
+      <p class="my-points">
+        Sua pontuação é de: <span class="human-points">0</span>
+      </p>
+      <p class="points-alexa">
+        A pontuação da IA é de: <span class="alexa-points">0</span>
+      </p>
+    </div>
+  </body>
+</html>
