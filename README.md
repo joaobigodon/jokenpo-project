@@ -1,1 +1,1 @@
-Aplicação, brincadeira JokenPô! ultilizando O js
+Aplicação, brincadeira JokenPô! ultilizando O JavaScript
